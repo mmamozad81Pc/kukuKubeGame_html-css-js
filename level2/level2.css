@@ -1,0 +1,47 @@
+@font-face{
+    font-family: yekan;
+    src: url(../font/Yekan\ Bakh\ Regular.ttf);
+}
+body{
+    height: 90vh;
+    font-family: yekan;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.parent{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    direction: rtl;
+}
+.item{
+    margin: 1px;
+    border-radius: 8px;
+    background-color: lightcoral;
+}
+.modal{
+    background-color: azure;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    display: none;
+    position: fixed;
+}
+.modalBtn{
+    background-color: aquamarine;
+    padding: 3px 6px;
+    cursor: pointer;
+}
+#score{
+    border: 2px solid black;
+    padding: 3px 6px;
+}
